@@ -68,7 +68,7 @@ import org.apache.beam.sdk.values.PCollection;
 //import org.apache.commons.io.IOUtils;
 import org.json.JSONObject;
 import org.apache.beam.examples.JsonUrlReader2;
-import org.apache.beam.examples.Aire;
+import org.apache.beam.examples.Stations;
 
 
 

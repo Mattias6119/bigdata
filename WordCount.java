@@ -154,7 +154,7 @@ public class WordCount {
       */
  
         System.out.println("Invocando a JsonUrlReader");	    
-        ArrayList<Aire> aAire;
+        ArrayList<Stations> aStations;
 
         JsonUrlReader2 j = new JsonUrlReader2();
 

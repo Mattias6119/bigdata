@@ -9,7 +9,7 @@ import com.fasterxml.jackson.core.exc.StreamReadException;
 import com.fasterxml.jackson.databind.DatabindException;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import org.apache.beam.examples.Aire;
+import org.apache.beam.examples.Stations;
 import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;

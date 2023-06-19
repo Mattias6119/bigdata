@@ -102,7 +102,7 @@ public class JsonUrlReader2 {
                     a.setEstacionStatus(nEstacion.get("status").asText());
                     a.setEstacionLines(nEstacion.get("lines").asText());
                     a.setEstacionDescription(nEstacion.get("description").asText());
-            
+		}
                 catch (Exception ex)
                 {
                     flagError = true;
@@ -124,5 +124,4 @@ public class JsonUrlReader2 {
         }   
         return aStations;
     }
-}//JsonUrlReader
-}
+}  //JsonUrlReader

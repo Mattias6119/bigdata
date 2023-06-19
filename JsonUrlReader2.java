@@ -67,7 +67,7 @@ public class JsonUrlReader2 {
             
             //System.out.println(n);
             //System.out.println(n.toPrettyString());
-            JsonNode r = n.get("Lines");
+            JsonNode r = n.get("lines");
             
            
             Iterator<JsonNode> it = r.iterator();

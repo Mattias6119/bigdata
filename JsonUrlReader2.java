@@ -39,7 +39,19 @@ public class JsonUrlReader2 {
         ObjectMapper mapper = new ObjectMapper();
 
 	System.out.println("Inicando mapper en JsonUrlReader");
-        JsonNode node = mapper.readTree(new URL(url));
+        JsonNode lines = node.get(fieldName:"lines");
+
+	Iterator<JsonNode> itLines = lines.iterator();
+
+	while (itLines.hasNext())
+	{
+		JsonNode childrenLine = itLines.next();
+		Iterator<JsonNode> itLinesChildren = childrenLine.iterator();
+		while(itLinesChildren.haxNext())
+		{
+			JsonNode childrenLine2 = itLinesChildren.next();
+		}
+	}
 
         System.out.println("Finalizando mapper en JsonUrlReader");
         
